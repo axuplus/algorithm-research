@@ -1,7 +1,11 @@
-package  main
+package main
 
 import "fmt"
 
-func main (){
-    fmt.Println("。。。")
+func main() {
+    var p *int
+    p = new(int)
+    *p = 1000
+    fmt.Println(p)
+    fmt.Println(*p)
 }
