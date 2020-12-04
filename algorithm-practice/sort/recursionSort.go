@@ -9,7 +9,9 @@ func main() {
 	fmt.Println(recursionSort(arr))
 }
 
+// ===
 // 递归快速排序 （缺点是太耗费内存）
+// ===
 func recursionSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr

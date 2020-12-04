@@ -13,7 +13,9 @@ func main() {
 
 }
 
+// ===
 // 二分插入快速排序 （每次能砍掉一半循环）
+// ===
 func binaryInsertSort(arr []int) []int {
 	for i := 1; i < len(arr); i++ {
 		// 循环插入寻找中间索引位置
