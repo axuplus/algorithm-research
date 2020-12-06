@@ -29,14 +29,3 @@ func insertSort(arr []int) []int {
 	}
 	return arr
 }
-
-func demo(arr []int) []int {
-	for i := 1; i < len(arr); i++ {
-		temp := arr[i]
-		j := i - 1
-		for arr[j] >= 0 && arr[j+1] > temp {
-			arr[j+1] = arr[j]
-		}
-	}
-	return arr
-}
