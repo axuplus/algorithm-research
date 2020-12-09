@@ -12,6 +12,9 @@ func main() {
 	fmt.Println(time.Now().Sub(t1).Microseconds())
 }
 
+// ===
+// 快排
+// ===
 func quickSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr

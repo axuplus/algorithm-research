@@ -9,6 +9,9 @@ func main() {
 	fmt.Println(bubbleSort(arr))
 }
 
+// ===
+// 冒泡排序
+// ===
 func bubbleSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr

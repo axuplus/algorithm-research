@@ -9,6 +9,9 @@ func main() {
 	fmt.Println(selectionSort(arr))
 }
 
+// ===
+// 选择排序
+// ===
 func selectionSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
